@@ -168,3 +168,120 @@ main {
 .hidden {
   display: none;
 }
+/* Small devices (landscape phones) */
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .player {
+    padding: 6rem 4rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    width: 75%;
+  }
+
+  .btn {
+    padding: 0.7rem 1.5rem;
+  }
+
+  .btn--new {
+    top: 2rem;
+  }
+
+  .btn--roll {
+    top: 33rem;
+  }
+
+  .btn--hold {
+    top: 39rem;
+  }
+}
+
+/* Medium devices (tablets) */
+@media screen and (max-width: 768px) {
+  main {
+    width: 80%;
+  }
+
+  .player {
+    padding: 6rem 3rem;
+  }
+
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .score {
+    font-size: 7rem;
+  }
+
+  .current {
+    width: 70%;
+  }
+
+  .btn {
+    padding: 0.7rem 2rem;
+  }
+
+  .btn--new {
+    top: 2rem;
+  }
+
+  .btn--roll {
+    top: 37rem;
+  }
+
+  .btn--hold {
+    top: 43rem;
+  }
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 992px) {
+  main {
+    width: 70%;
+  }
+
+  .player {
+    padding: 7rem 4rem;
+  }
+
+  .name {
+    font-size: 4rem;
+  }
+
+  .score {
+    font-size: 8rem;
+  }
+
+  .current {
+    width: 60%;
+  }
+
+  .btn {
+    padding: 0.7rem 2.5rem;
+  }
+
+  .btn--new {
+    top: 4rem;
+  }
+
+  .btn--roll {
+    top: 39.3rem;
+  }
+
+  .btn--hold {
+    top: 46.1rem;
+  }
+}
