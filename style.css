@@ -247,7 +247,7 @@ main {
   }
 }
 
-/* Large devices (desktops) */
+/* Large devices (Desktops) */
 @media screen and (min-width: 992px) {
   main {
     width: 70%;
